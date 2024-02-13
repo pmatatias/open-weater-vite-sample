@@ -16,7 +16,7 @@
   import axios from 'axios';
   
   const baseUrl = 'https://api.openweathermap.org/data/2.5/forecast';
-  const apiKey = '523ec0cd0202093b542bdb2ddd594bc6'; // Use your actual API key
+  const apiKey = 'API_KEY'; // Use your actual API key
   const lat = '44.34';
   const lon = '10.99';
   const forecast = ref({ list: [], city: { name: '', country: '' }});
