@@ -11,7 +11,7 @@
   import { ref, onMounted } from 'vue';
   import axios from 'axios';
   
-  const apiKey = '523ec0cd0202093b542bdb2ddd594bc6'; // Replace with your OpenWeatherMap API key
+  const apiKey = 'API_KEY'; // Replace with your OpenWeatherMap API key
   const lat = '44.34'; // Example latitude
   const lon = '10.99'; // Example longitude
   const weather = ref(null);
